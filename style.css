@@ -11,6 +11,7 @@ h1{
 }
 h2{
     font-size: 40px;
+    padding-top: 3%;
 }
 h3{
     font-size: 30px;
@@ -70,7 +71,7 @@ section{
     float: left;
     margin-left: 2%;
     padding-top: 7%;
-    padding-left: 8%;
+    padding-left: 8.5%;
 }
 .work img{
     width: 100%;
@@ -78,6 +79,10 @@ section{
 }
 .text{
     text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 104% 79%;
+    
 }
 #last{
     background-image: linear-gradient(lightSalmon, salmon);
@@ -88,4 +93,8 @@ section{
 footer{
     text-align: center;
     font-size: 15px;
+}
+.end{
+   background-image: url(images/footer-bg.png);
+   background-repeat: no-repeat;
 }
